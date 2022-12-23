@@ -1,0 +1,13 @@
+{% load blog_tags %}
+{% get_categories as categories %}
+<div class="category-list">
+    <h1>Категории:
+        {% for item in categories %}
+        <a href="{{ item.get_absolute_url }}" style="color: inherit; text-decoration: none;">
+            <ul class="category-elem">
+                {{ item.title }}
+            </ul>
+        </a>
+        {% endfor %}
+    </h1>
+</div>

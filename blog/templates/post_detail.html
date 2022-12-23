@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+{% block content %}
+
+<title>{{ post_item.title }}</title>
+
+{% block category_list %}
+{% include 'inc/_category_list.html' %}
+{% endblock %}
+
+<div class="post-entry">
+    <div class="post-inner">
+        <div class="text-part">
+            <p class="post-desc" id="category-name">{{ post_item.category }}</p>
+            <h2><a class="post-title" href="{{ post_item.post_detail.get_absolute_url }}">{{ post_item.title }}</a></h2>
+            <p class="post-desc">{{ post_item.body }}</p>
+            <p class="post-desc">{{ post_item.created_at }}</p>
+        </div>
+        {% if post_item.photo %}
+            <div class="media-body">
+                <img src="{{ post_item.photo.url }}" class="media" alt="" width="200">
+            </div>
+        {% endif %}
+    </div>
+</div>
+{% endblock content %}

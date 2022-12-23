@@ -1,0 +1,48 @@
+.category-list {
+    padding-left: 10px;
+}
+
+.category-elem {
+    display: inline;
+    font-size: 20px;
+}
+
+.post-entry {
+    padding: 10px;
+    margin: 20px;
+    background-color: #F2EEEE;
+    width: 50%;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+.post-inner {
+    display: flex;
+    margin: 10px;
+    padding: 10px;
+}
+
+.post-title {
+    padding: 5px;
+    background-color: #2F3C7E;
+    color: #FCFCEE;
+    text-decoration: none;
+}
+
+.post-desc {
+    font-weight: inherit;
+}
+
+#category-name {
+    color: grey;
+    font-style: oblique;
+}
+
+.media-body {
+    padding-top: 25px;
+}
+
+.media {
+  border-radius: 8px;
+}
+
+

@@ -1,0 +1,38 @@
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 18px;
+    background-color: #FCFCEE;
+    margin: 0;
+    padding: 0;
+}
+
+.topnav {
+  background-color: #2F3C7E;
+  overflow: hidden;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 21px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #FCFCEE;
+  color: #2F3C7E;
+}
+
+.main {
+    margin-left: 10px;
+    padding: 5;
+}
+
+
+
+
